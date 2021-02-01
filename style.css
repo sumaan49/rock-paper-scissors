@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(180, 180, 180);
+}
+
+.wrapper {
+  height: 550px;
+  width: 800px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: rgb(180, 180, 180);
+  box-shadow: 10px 10px 30px rgb(94, 94, 94),
+            -10px -10px 15px rgb(243, 240, 240);
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  color:rgb(56, 56, 56);
+  margin-bottom: 5px;
+  height: 100px;
+  line-height: 90px;
+  font-family: 'Arbutus', cursive;
+  text-transform: uppercase;
+
+}
+
+.moves {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80px;
+}
+
+i {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+
+}
+button {
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: rgb(180, 180, 180);
+  outline: none;
+  border: none;
+  box-shadow: 4px 4px 4px rgb(117, 117, 117),
+            -4px -4px 4px rgb(226, 225, 225);
+
+
+}
+button:hover {
+  transform: scale(1.05);
+  transition: all 0.1s ease-in;
+  color: rgb(221, 221, 221);
+  background-color: rgb(56, 56, 56);
+  color: rgb(221, 221, 221);
+  background-color: rgb(86, 71, 173);
+}
+
+.icon {
+  color: rgb(86, 71, 173);
+}
+.weapons {
+  height: 30px;
+  margin-top: 15px;
+
+}
+
+.span {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.rock{
+  margin-left: 145px;
+
+}
+
+.paper{
+  margin-left: 165px;
+}
+
+.scissors {
+  margin-left: 145px;
+}
+
+.scores {
+  display: flex;
+  margin-top: 0px;
+  height: 100px;
+  padding-top: 15px;
+  color: rgb(86, 71, 173);
+}
+
+.score {
+  height: 80px;
+  width: 80px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 5px;
+  color: rgb(56, 56, 56);
+  border: 2px solid rgb(56, 56, 56);
+  border-radius: 15px;
+}
+
+#gameNumber {
+  font-size: 60px;
+  margin-top: 10px;
+  color: rgb(86, 71, 173);
+}
+
+.result {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.versus{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color:rgb(56, 56, 56);
+}
+.left{
+  margin-left: 100px;
+}
+
+.middle {
+  margin-left: 50px;
+}
+
+.right {
+  margin-left: 80px;
+}
+.button-holder{
+  height: 70px;
+  text-align: center;
+  margin-top: 20px;
+}
+#reset {
+  height: 60px;
+  width: 200px;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: rgb(56, 56, 56);
+  background-color: color: rgb(86, 71, 173);;
+}
+
+

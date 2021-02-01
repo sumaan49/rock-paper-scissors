@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissor</title>
+  <script src="https://kit.fontawesome.com/d6a3dbae62.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Arbutus&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="title">select your move</div>
+    <div class="moves">
+      <button class="icon">
+        <i id="rock" class="fas fa-4x fa-hand-rock"></i>
+      </button>
+      <button  class="icon">
+        <i id="paper" class="fas fa-4x fa-hand-paper"></i>
+      </button>
+      <button class="icon">
+        <i id="scissors" class="fas fa-4x fa-hand-scissors"></i>
+      </button>
+    </div>
+    <div class="weapons">
+      <span class="span rock">rock</span>
+      <span class="span paper">paper</span>
+      <span class="span scissors">scissors</span>
+    </div>
+    <div class="scores">
+      <div id="computer" class="score">0</div>
+      <div id="gameNumber">0</div>
+      <div id="human" class="score">0</div>
+    </div>
+    <div class="versus">
+      <span class="participants left">computer</span>
+      <span class="participants middle">Game#</span>
+      <span class="participants right">player1</span>
+    </div>
+    <p class="result">let's begin.</p>
+    <div class="button-holder">
+      <button id="reset">Play again</button>
+    </div>
+
+  </div>
+<script src="app.js"></script>
+</body>
+</html>
